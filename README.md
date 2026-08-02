@@ -1,5 +1,7 @@
 # Kellnr on Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kellnr-registry?referralCode=ZqgrJ0)
+
 Deploy Kellnr 6.5.3 as a private Rust crate registry with generated administrator credentials and durable storage.
 
 The Deploy on Railway button is added after the published route is verified.
