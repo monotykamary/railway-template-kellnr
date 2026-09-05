@@ -2,13 +2,13 @@
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kellnr-registry?referralCode=ZqgrJ0)
 
-Deploy Kellnr 6.6.0 as a private Rust crate registry with generated administrator credentials and durable storage.
+Deploy Kellnr 6.8.0 as a private Rust crate registry with generated administrator credentials and durable storage.
 
 The Deploy on Railway button is added after the published route is verified.
 
 ## What this deploys
 
-- Kellnr `6.6.0`, pinned to the official Linux/AMD64 image digest
+- Kellnr `6.8.0`, pinned to the official Linux/AMD64 image digest
 - SQLite metadata, crate files, generated documentation, and indexes on one Railway volume
 - Authentication required for registry operations
 - A generated administrator password, API token, and persistent cookie-signing key
@@ -44,8 +44,8 @@ BASE_URL=https://your-domain.example ADMIN_PASSWORD=... ./scripts/smoke.sh
 
 ## Upstream
 
-- Source: https://github.com/kellnr/kellnr/tree/v6.6.0
-- Release: https://github.com/kellnr/kellnr/releases/tag/v6.6.0
+- Source: https://github.com/kellnr/kellnr/tree/v6.8.0
+- Release: https://github.com/kellnr/kellnr/releases/tag/v6.8.0
 - Documentation: https://kellnr.io/documentation
 - Licenses: MIT or Apache License 2.0
 
