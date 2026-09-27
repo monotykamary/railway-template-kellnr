@@ -1,4 +1,4 @@
-FROM ghcr.io/kellnr/kellnr:6.8.0@sha256:d7119431d7ea67275696463a3b7d0b68fc3ea33a953b4b4b5e84645542ee7f82
+FROM ghcr.io/kellnr/kellnr:6.9.0@sha256:f90712acb5605c4f9aaee6f6c91e2eeebce15b4b3c5e2800d98e32ce914da43d
 
 ENV KELLNR_REGISTRY__DATA_DIR=/data \
     KELLNR_LOCAL__PORT=8000
